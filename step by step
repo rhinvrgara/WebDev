@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">	
+  </head>
+  <body>
+	<center><h2>Step 2</h2></center>
+	
+	<center><table border="10">
+	  <tr>
+		<td><center>First Name</center></td>
+		<td><center>Middle Name</center></td>
+		<td><center>Last Name</center></td>
+	  </tr>
+	  <tr>
+		<form name="form1"  method="POST" action="index.php">
+		  <td><input type='text' name='firstname' VALUE="<?PHP print $firstName  ?>" size='20pt'></td>
+		  <td><input type='text' name='middlename' VALUE="<?PHP print $middleName ?>" size='35pt'></td>
+		  <td><input type='text' name='lastname' VALUE="<?PHP print $lastName ?>" size='20pt'></td>
+		</form>
+		</tr>
+	  <tr>
+		<td><center>Gender</center></td>
+		<td><center><input type='radio' name='male' value=$gender>Male</center></td>
+		<td><center><input type='radio' name='female' value=$gender>Female</center></td>
+	  </tr>
+	  </table>
+	  	<form>
+		<div>
+				<center><a href="step1.php">Previous</a></center>
+				<center><a href="step3.php">Next</a></center>
+		</div>
+	  	</form>
+</body>
+</html>		
+	  	
