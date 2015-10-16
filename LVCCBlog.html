@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+			<title>Vergara</title>
+			<style type="text/css">
+			*		{
+						font-family: Papyrus;
+						font-color: Gray;
+			}
+			section	{
+							width: 100%;
+			}
+			article	{
+							background-color: Black;
+							padding: 10px;
+			}
+			.published	{
+							background-color: Black;
+			}
+			form div	{
+							padding: 10x;	
+			}
+			input	{
+							font-size: 20px;
+							margin-top: 10px;
+							margin-left: 50px;
+							margin-bottom: 10px;
+
+			}
+			label {
+					color: white;
+					font-size: 22px;
+					margin-left: 15px;
+			}
+			textarea {
+					margin-top: 5px;
+					margin-left: 15px;
+					padding-left: 5px;
+					padding-top: 5px;
+					padding-right: 5px;
+			}
+	}
+</style>
+</head>
+<body bgcolor="gray">
+<header><h1><center>LVCC Blog</center></h1></header>
+<section>
+		<article>
+				<form>
+						<div>
+							<div>
+									<label>Title</label>
+									</div>
+										<div>
+									<input type='text' name='title' id='input_title' size="50" style="background-color: silver" />
+									</div>
+							</div>
+							<div>
+										<div>
+									<label>Author's Firstname</label>
+										</div>
+										<div>
+									<input type='text' name='firstname' id='input_firstname' size="40" style="background-color: silver">
+							</div>
+							<div>
+										<div>
+									<label>Middlename</label>
+										</div>
+										<div>
+									<input type='text' name='middlename' id='input_middlename' size="40" style="background-color: silver">
+							</div>
+							<div>
+										<div>
+								 	<label>Lastname</label>
+										</div>
+												<div>
+									<input type='text' name='lastname' id='input_lastname' size="40" style="background-color: silver">
+							</div>
+							<div>
+										<div>
+									<label>Content</label>
+										</div>
+										<div>			
+			<textarea name'content' id='input_content' rows='10' cols='80%' style="background-color: silver" ></textarea>
+										</div>
+							</div>
+							<div>
+							<input type='button' value='Submit' onClick="postBlog()">
+							</div>
+						</form>
+			</article>
+					<div id="Rock" style="position : absolute; left : 750px; right: 30px; top: 107px; margin: 10px; padding: 10px; background-color: gold">
+						<h1 id='Taytel'></h1>
+						<h6 id='Persneym'></h6>
+						<p id='kontak'></p>
+					</div>
+</section>
+<footer>All rights reserved &copy; Rhina Vergara 2015</footer>
+
+<script type="text/javascript">
+function postBlog(){
+			var input_title 		= document.getElementById('input_title').value;
+			var input_firstname 	= document.getElementById('input_firstname').value;
+			var input_middlename 	= document.getElementById('input_middlename').value;
+			var input_lastname 		= document.getElementById('input_lastname').value;
+			var input_content 		= document.getElementById('input_content').value;
+			
+			document.getElementById('Taytel').innerHTML = input_title;
+			var date_today = new Date();
+			document.getElementById('Persneym').innerHTML = input_firstname + ' ' + 
+			input_middlename + ' ' + input_lastname + ' ' + date_today;;
+			document.getElementById('kontak').innerHTML = input_content;
+}
+</script>
+</body>
+</html>							
+									
