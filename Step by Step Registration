@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">	
+  </head>
+  <body>
+	<center><h1>LA VERDAD CHRISTIAN COLLEGE</h1></center>
+	<center><p><b>WELCOME! <br>IF YOU ARE AN APPLICANT PLEASE PROCEED TO THE FIRST STEP<br>THANK YOU!</b></p></center>
+				 <center><a href="step1.php" target="_blank">Next</a></center>
+	  			
+	  			
+</body>
+</html>		
+	  	
