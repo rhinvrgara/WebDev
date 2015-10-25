@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bible Research</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap_v3/css/bootstrap.css">
+	<style type="text/css">
+	  body {
+	  background-color:#b0c4de;
+	  font-family:Sans-serif,Serif;
+	  }
+	   h1
+	  {
+		background-color:pink;
+	  }
+	   p
+	  {
+		background-color:#e0ffff;
+	  }
+	  div
+	  {
+		background-color:#b0c4de;
+	}
+	</style>
+</head>
+<body>
+  <header><center><h1>Bible Application</h1></center></header>
+	<div>
+		<br>
+		<center>
+			<button type="button" class="btn btn-warning" id="indexButton" border="2"><a href="old.html">Old Testament</a></button>
+			<button type="button" class="btn btn-warning" id="indexButton"><a href="new.html">New Testament</a></button>
+		</center>
+	</div>
+	<div class="container">
+		<div class="rows">
+			<div class="col-md-6">
+				<br>
+			  <div>
+				<center><img src="images/openBible.jpg" width="500" height="400"></center>
+			  </div>
+			</div>
+			<div class="col-md-6">
+				
+			</div>
+		</div>
+	</div>
+	<hr />
+		<footer><center><p>All Rights Reserved<br> Rhina Vergara<br>
+			  <br>Associate in Computer Technology<br>La Verdad Christian College<br>WEB DEVELOPMENT</p></center></footer>
+	<hr />
+</body>
+</html>
